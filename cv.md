@@ -1,10 +1,10 @@
 # Alexandr Reznikov
 ## My contacts:
-* Phone: +37544-582-82-37
-* e-mail: a.reznnikov@gmail.com
-* GitHub: a-reznikov
-* LinkedIn: aleksandr-reznikov
-* Discord: a-reznikov#0773
+* __Phone:__ +37544-582-82-37
+* __e-mail:__ a.reznnikov@gmail.com
+* __GitHub:__ a-reznikov
+* __LinkedIn:__ aleksandr-reznikov
+* __Discord:__ a-reznikov#0773
 
 ## About me:
 I was born in Svetlogorsk in 1990, and I am now 32 years old. For ten years I lived in Mogilev, where I studied at the BRU and worked at the Skoda dealership. Then my wife and I moved to Gomel, where I worked at the Skoda dealership, and then at Wurth. And for the last five years we have been living in this city. I have a lot of experience in sales and interpersonal relationships.
@@ -34,19 +34,19 @@ for key,value in d.items():
 This is my first deploied project
 ## Education:
 * Belarusian-Russian university:
-    * 2013 Technical operation of vehicles
-    * 2015 Master's Degree in Technical Sciences 
+    * __2013__ Technical operation of vehicles
+    * __2015__ Master's Degree in Technical Sciences 
 * Courses:
-    * EPAM:
-        * 2022 Version Control with Git
-        * 2022 Computer Science Basics
-    * Stepik:
+    * __EPAM:__
+        * __2022__ Version Control with Git
+        * __2022__ Computer Science Basics
+    * __Stepik:__
         * Bioinformatics institute:
-            * 2021 Python programming 
-            * 2022 Python: basics and applications
+            * __2021__ Python programming 
+            * __2022__ Python: basics and applications)
         * Web development for beginners: HTML and CSS (in progress 66%)
-    * GeekBrains:
-        * 2022 C#. Fast start.
+    * __GeekBrains:__
+        * __2022__ C#. Fast start.
 
 ## Languauges:
-* English: A1 (*Test by EPAM*)
+* __English:__ A1 (*Test by EPAM*)
