@@ -16,9 +16,38 @@ body {
   font-family: 'Barlow', sans-serif;
 }
 
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 40px 400px 40px 30px;
+}
+
+.profile-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .nav-list {
@@ -45,6 +74,15 @@ body {
   color: #0e0e0e;
 }
 
+.web-link {
+  color: #829985;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.web-link:hover {
+  color: #4d2323;
+}
+
 header {
   border: 1px solid red;
 }
@@ -57,8 +95,22 @@ footer {
   border: 1px solid blueviolet;
 }
 
-.profile-avatar {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.git-footer {
+  line-height: 50px;
+}
+
+.rss-link {
+  width: 121px;
+  height: 45px;
+  background-image: url(assets/img/rs_school_js.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
