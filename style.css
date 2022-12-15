@@ -1,4 +1,12 @@
-.section-profile-avatar {
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.profile-avatar {
   width: 200px;
   height: 200px;
   border-radius: 50%;
