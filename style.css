@@ -1,5 +1,23 @@
 body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex; /*прижимает к левой стороне*/
+  flex-direction: column; /*переворачиваем ось*/
+  justify-content: space-between; /*прижимаем крайние элементы*/
   font-family: 'Barlow', sans-serif;
+}
+
+header {
+  border: 1px solid red;
+}
+
+main {
+  border: 1px solid green;
+}
+
+footer {
+  border: 1px solid blueviolet;
 }
 
 * {
