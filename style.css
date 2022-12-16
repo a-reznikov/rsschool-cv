@@ -7,12 +7,12 @@ html {
 }
 
 body {
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -21,21 +21,28 @@ body {
   flex-wrap: wrap;
 }
 
-.section {
-  width: 50%;
+.section-left {
+  width: 30%;
+  border: 1px solid #5a5c5a;
+  background-color: #5a5c5a;
+  padding: 0 20px;
 }
 
-@media (max-width: 768px) {
-  .section {
-    width: 100%;
-  }
+.section-right {
+  width: 70%;
+  border: 1px solid #5a5c5a;
+  padding: 0 20px;
 }
 
 .section-profile {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  padding: 40px 400px 40px 30px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .section-left,
+  .section-right {
+    width: 100%;
+  }
 }
 
 .profile-avatar {
@@ -101,6 +108,7 @@ footer {
     align-items: center;
     margin: 0 auto;
     color: #000000;
+    padding: 20px;
 }
 
 .git-footer {
