@@ -113,6 +113,7 @@ body {
   color: #929191;
   text-decoration: none;  
   transition: color 0.5s;
+  font-weight: 700;
 }
 .web-link:hover {
   color: #000000;
@@ -124,25 +125,30 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    color: #000000;
     padding: 20px;
+    color: #ffffff;
+    background-color: #2B2C2B;
 }
 
 .git-footer {
   line-height: 50px;
+  color:#ffffff;
 }
 
 .rss-link {
   width: 121px;
   height: 45px;
-  background-image: url(assets/img/rs_school_js.svg);
+  background-image: url(assets/img/rss-white.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .section-left,
   .section-right {
     width: 100%;
+  }
+  .nav {
+    display: none;
   }
 }
