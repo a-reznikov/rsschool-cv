@@ -49,7 +49,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #C1FB6A;
+  color: #929191;
 }
 
 .main {
@@ -97,13 +97,25 @@ body {
   font-variant-caps: small-caps;
 }
 
+.code-python {
+  font-size: 14px;
+  color: #676767
+}
+
+.double {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .web-link {
-  color: #00389f;
+  color: #929191;
   text-decoration: none;  
   transition: color 0.5s;
 }
 .web-link:hover {
-  color: #767779;
+  color: #000000;
   text-decoration: underline;
 }
 
