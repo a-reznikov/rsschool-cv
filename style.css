@@ -14,47 +14,19 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Barlow', sans-serif;
-}
-
-.main-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.section-left {
-  width: 30%;
-  border: 1px solid #5a5c5a;
-  background-color: #5a5c5a;
-  padding: 0 20px;
-}
-
-.section-right {
-  width: 70%;
-  border: 1px solid #5a5c5a;
-  padding: 0 20px;
-}
-
-.section-profile {
-  padding: 20px;
-}
-
-@media (max-width: 768px) {
-  .section-left,
-  .section-right {
-    width: 100%;
-  }
-}
-
-.profile-avatar {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.header {
+  background-color: #2B2C2B;
 }
 
 .nav-list {
@@ -65,41 +37,74 @@ body {
 }
 
 .nav-link {
-  border: 1px solid pink;
   padding: 0 20px;
   line-height: 1.5;
   font-family: 'Barlow', sans-serif;
-  font-size: 18px;
   font-weight: 700;
+  font-variant-caps: small-caps;
   text-decoration: none;
-  color: #5a5c5a;
+  color: #ffffff;
   text-decoration: none;  
   transition: color 0.5s;
 }
 
 .nav-link:hover {
-  color: #0e0e0e;
+  color: #C1FB6A;
+}
+
+.main {
+  margin-bottom: auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-left {
+  width: 30%;
+  padding: 0 20px;
+}
+
+.section-right {
+  width: 70%;
+  padding: 0 20px;
+}
+
+.section-profile {
+  padding: 20px;
+}
+
+.profile-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile-title {
+  font-variant-caps: small-caps;
+  font-size: 36px;
+}
+
+.profile-subtitle {
+  font-variant-caps: small-caps;
+}
+
+.section-title {
+  font-variant-caps: small-caps;
 }
 
 .web-link {
-  color: #829985;
+  color: #00389f;
   text-decoration: none;  
   transition: color 0.5s;
 }
 .web-link:hover {
-  color: #4d2323;
-}
-
-header {
-  border: 1px solid red;
-}
-
-main {
-  border: 1px solid green;
-}
-
-footer {
-  border: 1px solid blueviolet;
+  color: #767779;
+  text-decoration: underline;
 }
 
 .footer-container {
@@ -121,4 +126,11 @@ footer {
   background-image: url(assets/img/rs_school_js.svg);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .section-left,
+  .section-right {
+    width: 100%;
+  }
 }
