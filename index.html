@@ -18,10 +18,10 @@
             <li class="nav-item"><a href="#my-contacts" class="nav-link">My contacts</a></li>
             <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
             <li class="nav-item"><a href="#my-skills" class="nav-link">My skills</a></li>
-            <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
-            <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
             <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
             <li class="nav-item"><a href="#languauges" class="nav-link">Languauges</a></li>
+            <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
           </ul>
         </nav>
       </div>
@@ -63,7 +63,7 @@
             <li class="section-item skills">Pycharm and VSC</li>
           </ul>
         </section>
-        <section class="section-right" id="education">
+        <section class="section-right section-education" id="education">
           <h2 class="section-title">Education</h2>
           <ul class="section-list">
             <li class="section-item education">Belarusian-Russian university:</li>
@@ -79,27 +79,27 @@
                 <li class="section-item courses">EPAM:</li>
                 <li>
                   <ul class="section-list">
-                    <li class="section-item epam">2022 Version Control with Git</li>
-                    <li class="section-item epam">2022 Computer Science Basics</li>
+                    <li class="section-item item-hide">2022 Version Control with Git</li>
+                    <li class="section-item item-hide">2022 Computer Science Basics</li>
                   </ul>
                 </li>
                 <li class="section-item courses">Stepik:</li>
                 <li>
-                  <ul class="section-list">
-                    <li class="section-item stepik">Bioinformatics institute:</li>
+                  <ul class="section-list item-hide">
+                    <li class="section-item item-hide">Bioinformatics institute:</li>
                     <li>
                       <ul class="section-list">
-                        <li class="section-item bio">2021 Python programming <a href="https://stepik.org/cert/1034363" target="_blank" class="web-link">certificate</a></li>
-                        <li class="section-item bio">2022 Python: basics and applications <a href="https://stepik.org/cert/1500134" target="_blank" class="web-link">certificate</a></li>
+                        <li class="section-item item-hide">2021 Python programming <a href="https://stepik.org/cert/1034363" target="_blank" class="web-link">certificate</a></li>
+                        <li class="section-item item-hide">2022 Python: basics and applications <a href="https://stepik.org/cert/1500134" target="_blank" class="web-link">certificate</a></li>
                       </ul>
                     </li>
-                    <li class="section-item stepik">Web development for beginners: HTML and CSS (in progress 66%)</li>
+                    <li class="section-item item-hide">Web development for beginners: HTML and CSS (in progress 66%)</li>
                   </ul>
                 </li>
                 <li class="section-item courses">GeekBrains:</li>
                 <li>
                   <ul class="section-list">
-                    <li class="section-item geek">2022 C#. Fast start.</li>
+                    <li class="section-item item-hide">2022 C#. Fast start.</li>
                   </ul>
                 </li>
               </ul>
@@ -121,15 +121,15 @@
         <section class="section-right" id="code-example">
           <h2 class="section-title">Code example</h2>
           <pre class="pre-text"><code class="code-python">
-              a=[str.lower(i) for i in input().split()]
-              n=len(a)
-              j=0
-              d={}
-              for j in range(n):
-                  c=a.count(a[j])
-                  d[a[j]]=c
-              for key,value in d.items():
-                  print(key,value)</code></pre>
+a=[str.lower(i) for i in input().split()]
+n=len(a)
+j=0
+d={}
+for j in range(n):
+    c=a.count(a[j])
+    d[a[j]]=c
+for key,value in d.items():
+    print(key,value)</code></pre>
         </section>
       </div>
     </main>
