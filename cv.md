@@ -31,7 +31,7 @@ for key,value in d.items():
     print(key,value)
 ```
 ## Experience:
-This is my first deploied project [CV](https://a-reznikov.github.io/demo-rs/cv)
+This is my first project [CV](https://a-reznikov.github.io/rsschool-cv/cv)
 ## Education:
 * Belarusian-Russian university:
     * __2013__ Technical operation of vehicles
